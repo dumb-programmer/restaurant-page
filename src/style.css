@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'KaiseiHarunoUmi';
+    src: url('./KaiseiHarunoUmi-Bold.ttf'), url('./KaiseiHarunoUmi-Medium.ttf'), url('./KaiseiHarunoUmi-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'KaiseiHarunoUmi';
+}
+
+body {
+    background-image: url("./robin-stickel-tzl1UCXg5Es-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    border: 2px solid black;
+    display: flex;
+    padding: 3px;
+    justify-content: center;
+}
+
+#header>ul>li {
+    display: inline;
+    margin-right: 30px;
+}
+
+#menu-content>ul>li{
+    margin-left: 20px;
+}
+
+#header>ul>li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 3px;
+    width: 100%;
+    text-align: center;
+}
+
+form {
+    margin-top: 20vh;
+    margin-left: 4rem;
+    width: 300px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+textarea{
+    height: 200px;
+    width: 266px;
+}
