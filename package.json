@@ -1,11 +1,11 @@
 {
   "name": "restaurant-page",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"webpack --mode=development"
+    "build": "webpack --mode=development",
+    "watch": "webpack watch --mode=development"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/dumb-programmer/restaurant-page#readme",
   "devDependencies": {
-    "@webpack-cli/generators": "^2.3.0",
+    "css-loader": "^6.2.0",
+    "style-loader": "^3.2.1",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0"
-  }
+  },
+  "description": ""
 }
